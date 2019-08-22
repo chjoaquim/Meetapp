@@ -1,7 +1,7 @@
 import express from 'express';
 import routes from './routes';
 
-class Index {
+class App {
   constructor() {
     this.server = express();
 
@@ -18,4 +18,4 @@ class Index {
   }
 }
 
-export default new Index().server;
+export default new App().server;
