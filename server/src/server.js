@@ -1,3 +1,3 @@
-import index from './index';
+import app from './app';
 
-index.listen(3333);
+app.listen(3333);
